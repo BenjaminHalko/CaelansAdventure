@@ -71,8 +71,8 @@ var w = display_get_gui_width();
 var h = display_get_gui_height();
 var scaleborder = (((w/2)+(400*(display_get_gui_height()/960)))-((w/2)-(400*(display_get_gui_height()/960))))/sprite_get_width(sTestEnergyBorder);
 
-energyboardcoloums = sprite_get_width(sTestEnergyBorder)*scaleborder/15;
-energyboardrows = sprite_get_height(sTestEnergyBorder)*scaleborder/15;
+energyboardcoloums = sprite_get_width(sTestEnergyBorder)*scaleborder/7;
+energyboardrows = sprite_get_height(sTestEnergyBorder)*scaleborder/7;
 energyboardspd = random_range(7,13);
 energyboardshake = 5;
 

@@ -1,0 +1,2 @@
+/// @desc
+oGlobalController.pause = false;

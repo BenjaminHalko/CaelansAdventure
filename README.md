@@ -1,5 +1,3 @@
-# Version 1.0.0
+# Version 1.2.0
 
-I made a physical DVD using this version.
-
-![DVD Case](https://github.com/BenjaminHalko/CaelansAdventure/raw/main/CD/DVD%20Cover.png)
+The last version of the game that used GameMaker 2.2

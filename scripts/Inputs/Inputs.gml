@@ -16,19 +16,19 @@ keyboard_key_pause = keyboard_check_pressed(vk_escape) or keyboard_check_pressed
 keyboard_key_exitplane = keyboard_check_pressed(vk_space);
 
 //Gamepad Inputs
-gamepad_key_up_pressed = gamepad_button_check_pressed(global.gp,gp_padu);
-gamepad_key_down_pressed = gamepad_button_check_pressed(global.gp,gp_padd);
-gamepad_key_left_pressed = gamepad_button_check_pressed(global.gp,gp_padl);
-gamepad_key_right_pressed = gamepad_button_check_pressed(global.gp,gp_padr);
-gamepad_key_left = gamepad_button_check(global.gp,gp_padl);
-gamepad_key_right = gamepad_button_check(global.gp,gp_padr);
-gamepad_key_up = gamepad_button_check(global.gp,gp_padu);
-gamepad_key_down = gamepad_button_check(global.gp,gp_padd);
-gamepad_key_jump = gamepad_button_check_pressed(global.gp,gp_padu) or gamepad_button_check_pressed(global.gp,gp_face1) or gamepad_button_check_pressed(global.gp,gp_face2);
-gamepad_key_enter = gamepad_button_check_pressed(global.gp,gp_face1) or gamepad_button_check_pressed(global.gp,gp_start);
-gamepad_key_back = gamepad_button_check_pressed(global.gp,gp_face2) or gamepad_button_check_pressed(global.gp,gp_select);
-gamepad_key_pause = gamepad_button_check_pressed(global.gp,gp_select) or gamepad_button_check_pressed(global.gp,gp_start);
-gamepad_key_exitplane = gamepad_button_check_pressed(global.gp,gp_face1);
+gamepad_key_up_pressed = gamepad_button_check_pressed(global.gp,gp_padu) or (global.screenKeyActivePressed[OnScreenKeys.UP]);
+gamepad_key_down_pressed = gamepad_button_check_pressed(global.gp,gp_padd) or (global.screenKeyActivePressed[OnScreenKeys.DOWN]);
+gamepad_key_left_pressed = gamepad_button_check_pressed(global.gp,gp_padl) or (global.screenKeyActivePressed[OnScreenKeys.LEFT]);
+gamepad_key_right_pressed = gamepad_button_check_pressed(global.gp,gp_padr) or (global.screenKeyActivePressed[OnScreenKeys.RIGHT]);
+gamepad_key_left = gamepad_button_check(global.gp,gp_padl) or (global.screenKeyActive[OnScreenKeys.LEFT]);
+gamepad_key_right = gamepad_button_check(global.gp,gp_padr) or (global.screenKeyActive[OnScreenKeys.RIGHT]);
+gamepad_key_up = gamepad_button_check(global.gp,gp_padu) or (global.screenKeyActive[OnScreenKeys.UP]);
+gamepad_key_down = gamepad_button_check(global.gp,gp_padd) or (global.screenKeyActive[OnScreenKeys.DOWN]);
+gamepad_key_jump = gamepad_button_check_pressed(global.gp,gp_padu) or gamepad_button_check_pressed(global.gp,gp_face1) or gamepad_button_check_pressed(global.gp,gp_face2) or (global.screenKeyActive[OnScreenKeys.A]);
+gamepad_key_enter = gamepad_button_check_pressed(global.gp,gp_face1) or gamepad_button_check_pressed(global.gp,gp_start) or (global.screenKeyActive[OnScreenKeys.A]);
+gamepad_key_back = gamepad_button_check_pressed(global.gp,gp_face2) or gamepad_button_check_pressed(global.gp,gp_select) or (global.screenKeyActive[OnScreenKeys.B]);
+gamepad_key_pause = gamepad_button_check_pressed(global.gp,gp_select) or gamepad_button_check_pressed(global.gp,gp_start) or (global.screenKeyActive[OnScreenKeys.B]);
+gamepad_key_exitplane = gamepad_button_check_pressed(global.gp,gp_face1) or (global.screenKeyActive[OnScreenKeys.A]);
 
 //End Keys
 if(instance_exists(oReplay)) and (room != rInt)

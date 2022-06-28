@@ -48,10 +48,6 @@ else
 		}
 		doneExploding = done;
 	}
-	else
-	{
-		go = true;
-	}
 }
 draw_set_alpha(0.5);
 if(mode != 0)

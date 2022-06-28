@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "01d5af94-0df5-4403-a2b2-954427961ffe",
+            "Value": {
+                "id": "40d63782-efff-47b0-88c5-806d4ad9bf02",
+                "resourcePath": "views\\01d5af94-0df5-4403-a2b2-954427961ffe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "023aedea-6a4e-4ef1-a677-546115692b22",
             "Value": {
                 "id": "24926c9c-e1cb-4ccc-89fd-99b4c1484ac7",
@@ -3727,6 +3735,14 @@
             }
         },
         {
+            "Key": "70e11b4b-926a-41fe-9a6f-31fd0d6dda5f",
+            "Value": {
+                "id": "0ad3ffc7-34af-4206-ac28-26a7673bf8b2",
+                "resourcePath": "objects\\oOnScreenButtons\\oOnScreenButtons.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "712dc9a3-880a-4e7c-9a75-cb930aa8e409",
             "Value": {
                 "id": "2996a586-1e8b-44f0-b8d1-0ebe3faabbc6",
@@ -5519,6 +5535,14 @@
             }
         },
         {
+            "Key": "a226f1e0-e49b-41db-ae19-21d9776d2a9d",
+            "Value": {
+                "id": "e2f49ea7-ae56-4589-af78-66fae12d375d",
+                "resourcePath": "views\\a226f1e0-e49b-41db-ae19-21d9776d2a9d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a230ec92-d0ed-46f8-9df3-c2c93ac9f547",
             "Value": {
                 "id": "a566557c-ea37-4671-addf-0e0cb49412aa",
@@ -6479,6 +6503,14 @@
             }
         },
         {
+            "Key": "bb3e6294-a21c-4f96-a636-a1f187cf7520",
+            "Value": {
+                "id": "f8c44d8b-799d-4fbd-9c3d-0c45f2478fce",
+                "resourcePath": "sprites\\sOnScreenKeyDPad\\sOnScreenKeyDPad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbcb4e65-1676-418c-bd7d-07003f4db9fe",
             "Value": {
                 "id": "7fd6ff35-cf01-4cbb-b382-dcfa32b70cf1",
@@ -6723,6 +6755,14 @@
             "Value": {
                 "id": "a6aeb9e0-447d-42b4-bbf8-3ca42d37f1d7",
                 "resourcePath": "sprites\\sForestBossArm\\sForestBossArm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c48ad836-2425-42cd-a0ac-1b24b8806855",
+            "Value": {
+                "id": "a954d612-5cfa-4d96-9d63-f01427b54572",
+                "resourcePath": "sprites\\sOnScreenKeyA\\sOnScreenKeyA.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8403,6 +8443,14 @@
             "Value": {
                 "id": "977d7dc9-852e-42d0-bbd9-2d50fe06e6d7",
                 "resourcePath": "sprites\\sSpringYellow\\sSpringYellow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f05e0570-3823-4ea7-8a7b-c57bfa3fc974",
+            "Value": {
+                "id": "4b30fb79-fddd-40b6-a2f2-ea5a31dd93e8",
+                "resourcePath": "sprites\\sOnScreenKeyB\\sOnScreenKeyB.yy",
                 "resourceType": "GMSprite"
             }
         },

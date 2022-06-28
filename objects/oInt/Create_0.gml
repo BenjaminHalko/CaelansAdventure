@@ -1,5 +1,5 @@
 /// @desc
-global.forWebsite = false;
+global.forWebsite = true;
 firststart = false;
 char = 0;
 text = "Press Any Key";
@@ -22,6 +22,17 @@ global.airshipdoor = noone;
 global.unlockedinfintejump = Load("Settings","UnlockedInfinteJump",false);
 global.retrofilter = Load("Settings","Retro Filter",false);
 global.retrovoice = Load("Settings","Retro Voice",false);
+
+global.screenKeyActive[OnScreenKeys.LEFT] = false;
+global.screenKeyActive[OnScreenKeys.RIGHT] = false;
+global.screenKeyActive[OnScreenKeys.UP] = false;
+global.screenKeyActive[OnScreenKeys.DOWN] = false;
+global.screenKeyActivePressed[OnScreenKeys.LEFT] = false;
+global.screenKeyActivePressed[OnScreenKeys.RIGHT] = false;
+global.screenKeyActivePressed[OnScreenKeys.UP] = false;
+global.screenKeyActivePressed[OnScreenKeys.DOWN] = false;
+global.screenKeyActive[OnScreenKeys.A] = false;
+global.screenKeyActive[OnScreenKeys.B] = false;
 
 global.gp = 0;
 global.gamepadconnected = false;

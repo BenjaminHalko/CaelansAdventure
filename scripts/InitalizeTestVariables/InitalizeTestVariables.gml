@@ -31,7 +31,7 @@ SetupTestWritten(3,4,"You Can't DESTROY Me!","Do Whatever You Want.","Just Don't
 
 #region Underground (4-5)
 //4
-SetupTestMultipleChoiceSetup(4,1,"You sure are Lucky.","I Bet You Don't Know How to Count.","Try Counting the the Apples",3,3,c_white);
+SetupTestMultipleChoiceSetup(4,1,"You sure are Lucky.","I Bet You Don't Know How to Count.","Try Counting the Apples",3,3,c_white);
 SetupTestMultipleChoice1(4,1,c_white,1,"5");
 SetupTestMultipleChoice2(4,1,c_white,1,"2");
 SetupTestMultipleChoice3(4,1,c_white,1,"3");

@@ -13,7 +13,7 @@
     "option_windows_display_cursor": true,
     "option_windows_display_name": "Caelan's Adventure",
     "option_windows_enable_steam": false,
-    "option_windows_executable_name": "Calean's Adventure",
+    "option_windows_executable_name": "Caelan's Adventure",
     "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
     "option_windows_installer_finished": "${options_dir}\\windows\\installer\\finished.bmp",
     "option_windows_installer_header": "${options_dir}\\windows\\installer\\header.bmp",
