@@ -1,7 +1,7 @@
 /// @desc
 
 #region Music
-if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (!unpersistant)
+if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound) and (oTransition.target != rOptionsDisplay) and (oTransition.target != rOptionsGameplay) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (!unpersistant)
 {
 	if(oTransition.mode == TRANS_MODE.INTRO)
 	{
@@ -68,7 +68,7 @@ if(previousroom != rPause) and (room != rLevelSelect) and (room_persistent) and 
 #region Fullscreen
 if(!window_get_fullscreen())
 {
-	window_set_fullscreen(true);
+	window_set_size(960,540);
 }
 #endregion
 

@@ -4,7 +4,7 @@ if selected_ {
 	if(key_enter) and (alarm[0] <= 0)
 	{
 		selected_ = false;
-		oOptions.selected = true;
+		oOptionsSound.selected = true;
 	}
 	if(key_right) value_+=0.01;
 	if(key_left) value_-=0.01;

@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snTalk",
-    "audioGroupGuid": "c3f7968e-200c-4b6e-8d89-ca577b8107de",
+    "audioGroupGuid": "7d54ba95-bcd5-490f-b56d-d77335e441ce",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

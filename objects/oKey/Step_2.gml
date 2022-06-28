@@ -16,10 +16,6 @@ else if (mode == 2)
 	var ytarget = target.y+32;
 	x = Approch(x,xtarget,max(point_distance(x,0,xtarget,0)/distancedivede,1));
 	y = Approch(y,ytarget,max(point_distance(0,yy,0,ytarget)/distancedivede,1));
-	with(light)
-	{
-		instance_destroy();
-	}
 	
 	image_xscale = 1;
 }

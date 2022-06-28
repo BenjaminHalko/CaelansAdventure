@@ -1,7 +1,8 @@
 /// @desc
-text[4] = "Desert\nDay";
-text[3] = "Underground\nDay";
-text[2] = "Grasslands\nDay";
+text[5] = "Snowy Mountain\nDay";
+text[4] = "Cold Desert\nDay";
+text[3] = "Undersnow\nDay";
+text[2] = "Snowlands\nDay";
 text[1] = "Home";
 text[0] = "Back";
 pos = 1;

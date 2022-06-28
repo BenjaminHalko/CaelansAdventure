@@ -23,7 +23,7 @@ if(!ending) and (!starting)
 					length = string_length(text);
 				}
 				
-				if(talknumber != 0)
+				if(talknumber != 0) and (!global.retrovoice)
 				{
 					audio_stop_sound(talksound);
 					if(talknumber == 1) and (pos == 0)
@@ -31,19 +31,14 @@ if(!ending) and (!starting)
 					else
 					talksound = audio_play_sound(global.TalkVoice[talknumber,pos],1,false);
 				}
-				pos++;
 				
-				if(pos == 2)
+				if(pos != 0) and (talknumber != 0)
 				{
-					image_speed = 1;
-				}
-				
-				if(pos == 3)
-				{
-					image_speed = 1;
+					sprite_index = sprite[pos];
 					image_index = 0;
-					sprite_index = sEvilChrisStage2;
+					image_speed = 1;
 				}
+				pos++;
 			}
 			else
 			{

@@ -14,8 +14,16 @@ for(var i=0; i<=array_length_1d(character);i++)
 	currentrectanglealpha[i] = 0;
 }
 
-sprite[0] = sPlayerRunC;
-sprite[1] = sPlayerRunA;
+if(oGlobalController.levelselected != rHouse)
+{
+	sprite[0] = sPlayerRunSnowC;
+	sprite[1] = sPlayerRunSnowA;
+}
+else
+{
+	sprite[0] = sPlayerRunC;
+	sprite[1] = sPlayerRunA;
+}
 
 index = 0;
 

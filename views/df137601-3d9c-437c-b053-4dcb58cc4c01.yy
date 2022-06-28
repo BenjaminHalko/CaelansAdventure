@@ -7,7 +7,8 @@
         "5a485b2d-b8cd-40b9-ad79-0b508dc7b6cf",
         "7d358184-87c8-482d-ba38-6be4a5c7251c",
         "d4b1f4be-2d09-46ba-9577-b3d7b6d726e5",
-        "d439ac73-5ea5-46dd-bb15-2c72468d608b"
+        "d439ac73-5ea5-46dd-bb15-2c72468d608b",
+        "4d68b270-56b5-4ef1-b691-0c96accf2b9f"
     ],
     "filterType": "GMSprite",
     "folderName": "Annara",

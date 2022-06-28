@@ -1,2 +1,0 @@
-/// @desc
-oPlayer.hascontrol = true;

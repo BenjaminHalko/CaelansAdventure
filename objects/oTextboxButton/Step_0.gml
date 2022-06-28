@@ -12,7 +12,7 @@ var h = camera_get_view_height(camera);
 var y2 = y1 + h;
 
 x = (x1+(w/2));
-y = y2-(h/5);
+y = y2-(h/4);
 
 image_xscale = w/display_get_gui_width();
 image_yscale = h/display_get_gui_height();

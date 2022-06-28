@@ -14,7 +14,7 @@ if(point_in_circle(oPlayer.x,oPlayer.y,x,y,64)) and (!instance_exists(oText))
 		follow = other.id;
 	}
 	
-	if(number != 0)
+	if(number != 0) and (!global.retrovoice)
 	{
 		if(character)
 		{
@@ -22,15 +22,7 @@ if(point_in_circle(oPlayer.x,oPlayer.y,x,y,64)) and (!instance_exists(oText))
 		}
 		else if(input)
 		{
-			if(global.gamepad)
-			{
-				var clip = global.signVoicesG[roomnumber,number];
-			}
-			else
-			{
-				var clip = global.signVoicesK[roomnumber,number];
-			}
-	
+			var clip = ChooseDependingOnInput(global.signVoicesK[roomnumber,number],global.signVoicesG[roomnumber,number])
 		}
 		else
 		{

@@ -1,6 +1,4 @@
 /// @desc
-
-text[3] = "CONTROLS";
 text[2] = "OPTIONS";
 text[1] = "MAIN MENU";
 text[0] = "BACK";

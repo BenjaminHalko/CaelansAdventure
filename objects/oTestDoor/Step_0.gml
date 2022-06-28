@@ -1,5 +1,4 @@
 /// @desc
-
 if(!destroy)
 {
 	switch(phase)
@@ -55,4 +54,10 @@ else
 	{
 		alarm[0] = explosionspd;
 	}
+}
+
+screenindex++;
+if(screenindex >= sprite_get_number(sTestDoorScreen))
+{
+	screenindex = 0;
 }

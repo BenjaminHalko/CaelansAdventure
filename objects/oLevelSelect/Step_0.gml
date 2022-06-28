@@ -45,6 +45,11 @@ else if(y == ystart-(pos*margin))
 				oGlobalController.levelselected = rDesert;
 				break;
 			}
+			case 5:
+			{
+				oGlobalController.levelselected = rSnow;
+				break;
+			}
 		}
 		
 		if(pos != 0)

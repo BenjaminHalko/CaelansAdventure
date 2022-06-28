@@ -3,7 +3,7 @@
     "modelName": "GMMacOptions",
     "mvc": "1.0",
     "name": "macOS",
-    "option_mac_allow_fullscreen": false,
+    "option_mac_allow_fullscreen": true,
     "option_mac_allow_incoming_network": false,
     "option_mac_allow_outgoing_network": false,
     "option_mac_app_category": "Games",
@@ -13,13 +13,13 @@
     "option_mac_copyright": "Benjamin 2019",
     "option_mac_disable_sandbox": false,
     "option_mac_display_cursor": true,
-    "option_mac_display_name": "Caelan's Thanks Giving Demo Adventure",
+    "option_mac_display_name": "Caelan's Thanksgiving Demo Winter Edition Adventure",
     "option_mac_enable_retina": false,
     "option_mac_enable_steam": false,
     "option_mac_icon_png": "${options_dir}\\mac\\icons\\1024.png",
     "option_mac_interpolate_pixels": false,
     "option_mac_menu_dock": false,
-    "option_mac_output_dir": "~\/Caelan's Thanks Giving Demo Adventure",
+    "option_mac_output_dir": "~\/Caelan's Thanksgiving Demo Winter Edition Adventure",
     "option_mac_resize_window": false,
     "option_mac_scale": 0,
     "option_mac_signing_identity": "",
@@ -33,5 +33,5 @@
         "minor": 0,
         "revision": 0
     },
-    "option_mac_vsync": false
+    "option_mac_vsync": true
 }

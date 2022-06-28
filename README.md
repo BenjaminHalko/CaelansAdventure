@@ -1,3 +1,3 @@
-# Thanksgiving Demo
+# Winter Demo
 
-A short demo that includes the daytime levels of the first 3 zones
+The daytime levels of the first 4 zones with a wintery twist!

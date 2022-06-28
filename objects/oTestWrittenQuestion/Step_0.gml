@@ -50,6 +50,11 @@ if(alarm[0] <= 0)
 				answerobject.number = i;
 			}
 		}
+		else if(global.testanswerobject[test,question] == oPiano)
+		{
+			answerobject = instance_create_depth(0,0,depth,global.testanswerobject[test,question]);
+			CreatePianoKeys();
+		}
 		else
 		{
 			answerobject = instance_create_depth(0,0,depth,global.testanswerobject[test,question]);

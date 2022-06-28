@@ -14,5 +14,9 @@ alphaspd = 0.02;
 
 talknumber = 1;
 
-image_index = 0;
 image_speed = 0;
+sprite[0] = sEvilChrisGrasslandsDay1;
+sprite[1] = sEvilChrisGrasslandsDay1;
+sprite[2] = sEvilChrisGrasslandsDay2;
+sprite[3] = sEvilChris;
+sprite[4] = sEvilChris; 

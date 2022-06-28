@@ -8,7 +8,8 @@
         "f85823cc-29ae-4476-8a3d-851d4f903296",
         "093b824e-f7ae-426e-bcd8-3df4bea26310",
         "e912acf1-253f-4567-87ba-ce5fd919b96d",
-        "08fc92b1-ebed-4d38-a25c-5e20c929fc02"
+        "08fc92b1-ebed-4d38-a25c-5e20c929fc02",
+        "b3032e76-7cfe-4a57-94ea-94890f9b576d"
     ],
     "filterType": "GMSprite",
     "folderName": "Door",

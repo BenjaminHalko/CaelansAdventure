@@ -39,12 +39,6 @@ else
 				SlideTransistion(TRANS_MODE.GOTO,rOptions);
 				break;
 			}
-			case 3:
-			{
-				room_persistent = true;
-				SlideTransistion(TRANS_MODE.GOTO,rControls);
-				break;
-			}
 		}
 	}
 }

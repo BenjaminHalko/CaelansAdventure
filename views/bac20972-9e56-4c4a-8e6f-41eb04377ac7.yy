@@ -9,7 +9,7 @@
         "85b8f7fb-97bf-4090-a4ad-c549627e9dda"
     ],
     "filterType": "GMObject",
-    "folderName": "End of the Level",
+    "folderName": "EndOfTheLevel",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

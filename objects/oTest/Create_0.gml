@@ -1,5 +1,5 @@
 /// @desc
-global.retrofilter = false;
+//global.retrofilter = false;
 test = global.test;
 question = 1;
 char = 0;

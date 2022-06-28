@@ -7,7 +7,7 @@ enum PLAYER
 }
 hsp = 0;
 vsp = 0;
-lockedspringjump = true;
+lockedspringjump = false;
 jumpspd = -7;
 grv = 0.3;
 quicksandgrv = 0.5;
@@ -27,18 +27,32 @@ allowstandinginwater = false;
 
 cornerspringjump = false;
 springspdnormal = -11;
+springspdsideways = 7;
 purplespringjump = false;
 purplespringspd = -15;
 
-spritestand[PLAYER.C] = sPlayerC;
-spriterun[PLAYER.C] = sPlayerRunC;
-spritejump[PLAYER.C] = sPlayerJumpC;
-spritefall[PLAYER.C] = sPlayerFallC;
+snow = (room != rHouse);
 
-spritestand[PLAYER.A] = sPlayerA;
-spriterun[PLAYER.A] = sPlayerRunA;
-spritejump[PLAYER.A] = sPlayerJumpA;
-spritefall[PLAYER.A] = sPlayerFallA;
+spritestand[PLAYER.C,false] = sPlayerC;
+spriterun[PLAYER.C,false] = sPlayerRunC;
+spritejump[PLAYER.C,false] = sPlayerJumpC;
+spritefall[PLAYER.C,false] = sPlayerFallC;
+
+spritestand[PLAYER.C,true] = sPlayerSnowC;
+spriterun[PLAYER.C,true] = sPlayerRunSnowC;
+spritejump[PLAYER.C,true] = sPlayerJumpSnowC;
+spritefall[PLAYER.C,true] = sPlayerFallSnowC;
+
+spritestand[PLAYER.A,false] = sPlayerA;
+spriterun[PLAYER.A,false] = sPlayerRunA;
+spritejump[PLAYER.A,false] = sPlayerJumpA;
+spritefall[PLAYER.A,false] = sPlayerFallA;
+
+spritestand[PLAYER.A,true] = sPlayerSnowA;
+spriterun[PLAYER.A,true] = sPlayerRunSnowA;
+spritejump[PLAYER.A,true] = sPlayerJumpSnowA;
+spritefall[PLAYER.A,true] = sPlayerFallSnowA;
+
 if(!instance_exists(oCamera))
 {
 	instance_create_layer(0,0,layer,oCamera);

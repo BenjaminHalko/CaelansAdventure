@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "c1b4b391-a17d-4536-a6ea-9c570ebea643"
+        "c1b4b391-a17d-4536-a6ea-9c570ebea643",
+        "f37a7308-45a8-4dd1-a886-48e987256a6b"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_6EE4FFF","id": "c1b4b391-a17d-4536-a6ea-9c570ebea643","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6EE4FFF","objId": "ef86fabb-20f6-4701-b631-60738e55d28f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 800,"y": 384}
+{"name": "inst_6EE4FFF","id": "c1b4b391-a17d-4536-a6ea-9c570ebea643","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6EE4FFF","objId": "ef86fabb-20f6-4701-b631-60738e55d28f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 800,"y": 384},
+{"name": "inst_385272F8","id": "f37a7308-45a8-4dd1-a886-48e987256a6b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_385272F8","objId": "8a4adc9f-9c7c-4433-a36a-c2df51b09b50","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 992,"y": 256}
             ],
             "layers": [
 

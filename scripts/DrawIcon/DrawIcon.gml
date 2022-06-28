@@ -1,4 +1,11 @@
 /// @desc DrawIcon
+/// @arg x
+/// @arg y
+/// @arg #
+/// @arg scale
+/// @arg rotation
+/// @arg alpha
+/// @arg whole
 
 var _x = argument0;
 var _y = argument1;

@@ -92,8 +92,12 @@ if ((canjump > 0) or (place_meeting(x,y,oQuicksand))) and (key_jump) and (!(plac
 {
 	vsp = jumpspd;
 	canjump = 0;
-	automove = true;
-	automovewalksp = walksp;
+	
+	if(global.autojump)
+	{
+		automove = true;
+		automovewalksp = walksp;
+	}
 }
 
 if(key_jump) and (place_meeting(x,y,oQuicksand))
@@ -149,9 +153,46 @@ if(spring != noone)
 	}
 }
 
-while(place_meeting(x,y,pCollide))
+//Sideways
+var spring = instance_place(x+hsp,y,pSpringSideways);
+if(spring != noone)
 {
-	y -= 1;
+	spring.image_speed = 1;
+	canjump = 0;
+	automove = true;
+	cornerspringjump = false;
+	if(spring.object_index == oSpringSidewaysRed)
+	{
+		hsp = springspdsideways*sign(spring.image_xscale);
+	}
+	else
+	{
+		hsp = springspdsideways*sign(spring.image_xscale);
+	}
+	automovewalksp = hsp;
+	lockedspringjump = true;
+}
+
+//Corner
+var spring = instance_place(x+hsp,y+vsp,pSpringCorner);
+if(spring != noone)
+{
+	spring.image_speed = 1;
+	canjump = 0;
+	automove = true;
+	cornerspringjump = true;
+	if(spring.object_index == oSpringCornerRed)
+	{
+		hsp = springspdnormal * sign(spring.image_xscale);
+		vsp = springspdnormal * sign(spring.image_yscale);
+	}
+	else
+	{
+		hsp = -walksp*2 * sign(spring.image_xscale);
+		vsp = -walksp*2 * sign(spring.image_yscale);
+	}
+	automovewalksp = hsp;
+	lockedspringjump = true;
 }
 #endregion
 
@@ -200,29 +241,36 @@ if (place_meeting(x,y+vsp,pCollide))
 y += vsp;
 #endregion
 
+#region Move Out of Wall
+while(place_meeting(x,y,pCollide) or place_meeting(x,y,pSpringNormal))
+{
+	y -= 1;
+}
+#endregion
+
 #region Animation
 swimming = false;
 if (!place_meeting(x,y+1,pCollide))
 {
 	if(sign(vsp) < 0)
 	{
-		if(sprite_index != spritejump[global.character])
+		if(sprite_index != spritejump[global.character,snow])
 		{
 			image_index = 1;
 		}
 		
-		sprite_index = spritejump[global.character];
+		sprite_index = spritejump[global.character,snow];
 	}
 	else
 	{
-		if(sprite_index == spritejump[global.character]) and (image_index > 1)
+		if(sprite_index == spritejump[global.character,snow]) and (image_index > 1)
 		{
 			image_speed = -1;
 		}
 		else
 		{
 			image_speed = 1;
-			sprite_index = spritefall[global.character];
+			sprite_index = spritefall[global.character,snow];
 		}
 	}
 }
@@ -233,7 +281,7 @@ else
 	automove = false;
 	lockedspringjump = false;
 	cornerspringjump = false;
-	if(sprite_index == spritefall[global.character])
+	if(sprite_index == spritefall[global.character,snow])
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,4,false);
@@ -249,11 +297,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = spritestand[global.character];
+		sprite_index = spritestand[global.character,snow];
 	}
 	else
 	{
-		sprite_index = spriterun[global.character];	
+		sprite_index = spriterun[global.character,snow];	
 	}
 }
 
@@ -286,7 +334,7 @@ if(door != noone)
 #endregion
 
 #region Pause
-if(hascontrol) and (key_pause)
+if(hascontrol)  and (key_pause)
 {
 	room_persistent = true;
 	SlideTransistion(TRANS_MODE.GOTO,rPause);

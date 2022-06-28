@@ -8,6 +8,7 @@ music[rHouse] = mHome;
 music[rGrasslands] = mGrasslandsDay;
 music[rUnderground] = mUndergroundDay;
 music[rDesert] = mDesertDay;
+music[rSnow] = mSnowDay;
 music[rCredits] = mCredits;
 
 musicplaying = noone;
@@ -29,9 +30,12 @@ global.name[PLAYER.A] = "Annara";
 global.birthday[PLAYER.C] = date_create_datetime(2011,3,6,0,0,0);
 global.birthday[PLAYER.A] = date_create_datetime(2014,1,18,0,0,0);
 
+global.onoff = false;
+
 unpersistant = false;
 
-global.rumble = Load("Settings","Rumble",false);
+global.rumble = Load("Settings","Rumble",true);
+global.autojump = Load("Settings","Autojump",true);
 rumble = false;
 global.gamepad = false;
 

@@ -16,7 +16,7 @@ if(letters > length) and !(point_in_circle(oPlayer.x,oPlayer.y,x,y,128)) and (cr
 if(text_previous != text_current)
 {
 	text_previous = text_current;
-	if(Load("Settings","Voice Clips Volume",0.5) == 0)
+	if(global.retrovoice)
 	{
 		var sound = audio_play_sound(snTalk,1,false);
 		audio_sound_pitch(sound,1.5);

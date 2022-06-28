@@ -1,8 +1,5 @@
 /// @desc
-x = mouse_x;
-y = mouse_y;
-
-if(!instance_exists(oTest))
+if(!instance_exists(oTest)) and (window_get_fullscreen())
 {
 	window_set_cursor(cr_none);
 }

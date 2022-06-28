@@ -5,6 +5,16 @@
     "name": "oIcon",
     "eventList": [
         {
+            "id": "7daea0cb-fc2f-48a1-84d5-f7e048e3cc24",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "1fd4e1f2-92a7-46e1-8684-8d91d075ebec"
+        },
+        {
             "id": "fc8bdeda-c3e8-4921-a46a-aa53927950c1",
             "modelName": "GMEvent",
             "mvc": "1.0",

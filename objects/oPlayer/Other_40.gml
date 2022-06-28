@@ -1,2 +1,0 @@
-/// @desc
-oCamera.follow = id;
