@@ -1,8 +1,12 @@
 {
-    "id": "ae34fdcd-d72d-49b5-938a-949cb18dead6",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "NineSliceBox",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "NineSliceBox",
+  "tags": [],
+  "resourceType": "GMScript",
 }

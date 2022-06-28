@@ -1,8 +1,12 @@
 {
-    "id": "3fece2d4-010d-44ee-a8d7-f367a5434f54",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SetupTestMultipleChoiceSetup",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "MultipleChoice",
+    "path": "folders/Scripts/Test/MultipleChoice.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SetupTestMultipleChoiceSetup",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "d5c072a8-0138-45ed-8958-e681bffd050e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongChristmasTree",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongChristmasTree",
+  "tags": [],
+  "resourceType": "GMScript",
 }

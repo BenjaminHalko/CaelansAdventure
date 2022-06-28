@@ -1,8 +1,12 @@
 {
-    "id": "8a9f2829-9302-4d2e-9bd9-04a81baa702a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SkeletonAttack8",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Skeleton Attacks",
+    "path": "folders/Scripts/Skeleton Attacks.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SkeletonAttack8",
+  "tags": [],
+  "resourceType": "GMScript",
 }

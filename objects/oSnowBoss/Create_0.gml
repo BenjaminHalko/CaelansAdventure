@@ -6,7 +6,7 @@ activated = false;
 
 phase = 0;
 hp = 5;
-if(global.annaramode)
+if(global.user == USER.ANNARA)
 {
 	phase = 2;
 	hp = 3;

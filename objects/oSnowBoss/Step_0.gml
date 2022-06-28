@@ -97,7 +97,7 @@ if(start)
 		}
 		case 2:
 		{
-			if(!global.annaramode)
+			if(global.user != USER.ANNARA)
 			{
 				image_blend = make_color_hsv(0,Wave(0,255,5,0),255);
 				PlaySong(mBossHurry,true);

@@ -2,12 +2,13 @@
 var sprite = sLevelSelectSreenshots;
 var pos = oLevelSelect.pos;
 
-if(global.annaramode) sprite = sLevelSelectScreenshotsAnnara;
+if(global.user == USER.ANNARA) sprite = sLevelSelectScreenshotsAnnara;
+if(global.user == USER.CHRIS) and (oLevelSelect.pos == 0) sprite = sLevelSelectScreenshotsChris;
 
 if(collectedanextra) and (oLevelSelect.pos == 0)
 {
 	sprite = sLevelSelectTitleWithExtras;
-	pos = global.annaramode;
+	pos = global.user;
 }
 draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,image_blend,image_alpha);
 if(oLevelSelect.y == oLevelSelect.ystart-(oLevelSelect.pos*oLevelSelect.margin)) and ((oLevelSelect.pos != 20) or (oLevelSelect.playedsecretlevel))

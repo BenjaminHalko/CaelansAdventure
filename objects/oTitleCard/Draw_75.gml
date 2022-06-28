@@ -7,7 +7,7 @@ draw_rectangle(0,0,w/4,h*barheight,false);
 draw_set_color(bottomcolour[global.character])
 draw_rectangle(0,h-(h/4)*barheight,w,h,false);
 draw_set_alpha(1);
-draw_sprite_ext(sTitle,global.annaramode,256,128,0.5,0.5,0,c_white,barheight);
+draw_sprite_ext(sTitle,global.user,256,128,0.5,0.5,0,c_white,barheight);
 draw_set_font(fMenu);
 draw_set_colour(c_white)
 draw_set_halign(fa_right);

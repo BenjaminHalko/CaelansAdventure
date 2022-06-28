@@ -62,7 +62,7 @@ iconangle = 0;
 
 #region Player Health
 playerhealth = 10;
-if(global.annaramode) playerhealth = 20;
+if(global.user == USER.ANNARA) playerhealth = 20;
 playermaxhealth = playerhealth;
 playerallowhit = true;
 playerdrawwhite = false;

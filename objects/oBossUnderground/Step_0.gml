@@ -87,7 +87,7 @@ switch(phase)
 			hp -= 1;
 			if(hp <= 3)
 			{
-				if(global.annaramode)
+				if(global.user == USER.ANNARA)
 				phase = 5;
 				else
 				phase = 4;

@@ -8,7 +8,7 @@ y = room_height/2;
 image_alpha = 0;
 
 image_speed = 0;
-image_index = global.annaramode;
+image_index = global.user;
 
 spd = 0.03;
 

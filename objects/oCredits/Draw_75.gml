@@ -12,8 +12,8 @@ var gh = display_get_gui_height();
 
 display_set_gui_size(960,540);
 var drawy = texty+sprite_get_height(sTitle)/2+shadowy;
-draw_sprite_ext(sTitle,global.annaramode,display_get_gui_width()/2+shadowx,drawy+(shadowz*(drawy-(display_get_gui_height()/2))),1,1,0,c_black,shadowalpha);
-draw_sprite(sTitle,global.annaramode,display_get_gui_width()/2,texty+sprite_get_height(sTitle)/2);
+draw_sprite_ext(sTitle,global.user,display_get_gui_width()/2+shadowx,drawy+(shadowz*(drawy-(display_get_gui_height()/2))),1,1,0,c_black,shadowalpha);
+draw_sprite(sTitle,global.user,display_get_gui_width()/2,texty+sprite_get_height(sTitle)/2);
 
 for(var i = 0; i < array_length_1d(text); i++)
 {

@@ -1,8 +1,12 @@
 {
-    "id": "aff5e847-db99-4933-b000-7e17a52bd027",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongTitle",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongTitle",
+  "tags": [],
+  "resourceType": "GMScript",
 }

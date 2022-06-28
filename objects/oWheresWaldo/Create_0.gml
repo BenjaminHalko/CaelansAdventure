@@ -108,7 +108,7 @@ for(var i = 0; i < array_length_1d(extraindex); i++)
 		groupamount[i] = 200;
 	}
 	
-	if(global.annaramode)
+	if(global.user == USER.ANNARA)
 	{
 		groupamount[i] /= 2;
 	}

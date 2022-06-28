@@ -1,92 +1,83 @@
 {
-    "id": "9f794511-9f67-4cc9-aa6d-6d1bf13bbc93",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "sEvilChrisBossFallen",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 47,
-    "bbox_left": 18,
-    "bbox_right": 29,
-    "bbox_top": 14,
-    "bboxmode": 2,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "9c03aa22-5bcb-4121-9fd4-b6170579a5ce",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "9f794511-9f67-4cc9-aa6d-6d1bf13bbc93",
-            "compositeImage": {
-                "id": "e6a83b4e-48f9-4fae-b6cd-e57802c6dcde",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "9c03aa22-5bcb-4121-9fd4-b6170579a5ce",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "dab2cd34-882c-4267-be10-4d8d984aa17e",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "9c03aa22-5bcb-4121-9fd4-b6170579a5ce",
-                    "LayerId": "553a3fe2-5863-4924-9268-8355f89831cb"
-                }
-            ]
-        },
-        {
-            "id": "86d97c68-27e1-43dd-bf22-37dce49a4b57",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "9f794511-9f67-4cc9-aa6d-6d1bf13bbc93",
-            "compositeImage": {
-                "id": "56f766fc-1af9-4a3d-bff2-128344cb552f",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "86d97c68-27e1-43dd-bf22-37dce49a4b57",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "4bb75d69-5a30-44fc-8d12-549b299e77f2",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "86d97c68-27e1-43dd-bf22-37dce49a4b57",
-                    "LayerId": "553a3fe2-5863-4924-9268-8355f89831cb"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 55,
-    "layers": [
-        {
-            "id": "553a3fe2-5863-4924-9268-8355f89831cb",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "9f794511-9f67-4cc9-aa6d-6d1bf13bbc93",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 9,
-    "originLocked": false,
-    "playbackSpeed": 0,
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 18,
+  "bbox_right": 29,
+  "bbox_top": 14,
+  "bbox_bottom": 47,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 48,
+  "height": 55,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"9c03aa22-5bcb-4121-9fd4-b6170579a5ce","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9c03aa22-5bcb-4121-9fd4-b6170579a5ce","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"LayerId":{"name":"553a3fe2-5863-4924-9268-8355f89831cb","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEvilChrisBossFallen","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","name":"9c03aa22-5bcb-4121-9fd4-b6170579a5ce","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"86d97c68-27e1-43dd-bf22-37dce49a4b57","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"86d97c68-27e1-43dd-bf22-37dce49a4b57","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"LayerId":{"name":"553a3fe2-5863-4924-9268-8355f89831cb","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEvilChrisBossFallen","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","name":"86d97c68-27e1-43dd-bf22-37dce49a4b57","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sEvilChrisBossFallen","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 48,
-    "xorig": 24,
-    "yorig": 26
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 2.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"03b8312f-e4e2-46c2-8976-fb77ebf04c03","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c03aa22-5bcb-4121-9fd4-b6170579a5ce","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3f50c719-2840-42bc-96f4-9ca5b2abd25d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86d97c68-27e1-43dd-bf22-37dce49a4b57","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 24,
+    "yorigin": 26,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sEvilChrisBossFallen","path":"sprites/sEvilChrisBossFallen/sEvilChrisBossFallen.yy",},
+    "resourceVersion": "1.4",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"553a3fe2-5863-4924-9268-8355f89831cb","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "Boss",
+    "path": "folders/Sprites/Evil Chris & Other Characters/Evil Chris/Boss.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sEvilChrisBossFallen",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

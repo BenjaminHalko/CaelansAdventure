@@ -1,6 +1,10 @@
 /// @desc
 test = oTest.test;
 question = oTest.question;
+
+var type = kbv_type_default;
+if(test == 2) type = kbv_type_numbers;
+keyboard_virtual_show(type,kbv_returnkey_done,kbv_autocapitalize_none,false);
 textquestion = global.testquestion[test,question];
 textspd = 5;
 textquestiondraw = "";

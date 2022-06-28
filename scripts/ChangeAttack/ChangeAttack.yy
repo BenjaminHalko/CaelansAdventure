@@ -1,8 +1,12 @@
 {
-    "id": "4443081f-546f-49d9-92c2-f6391fa9cfc6",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "ChangeAttack",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Evil Chris Attacks",
+    "path": "folders/Scripts/Evil Chris Attacks.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ChangeAttack",
+  "tags": [],
+  "resourceType": "GMScript",
 }

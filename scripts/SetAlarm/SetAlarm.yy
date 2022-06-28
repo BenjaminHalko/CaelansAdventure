@@ -1,8 +1,12 @@
 {
-    "id": "ab61704c-25f6-4a16-a03b-0100acb088a2",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SetAlarm",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SetAlarm",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -32,7 +32,7 @@ if(infrontalpha != 0)
 {
 	draw_set_alpha(infrontalpha);
 	draw_sprite(sExtrasBorder,0,0,0);
-	if(global.annaramode)
+	if(global.user == USER.ANNARA)
 	draw_sprite_stretched(sExtrasAnnara,pos-1,0+fullscreenmargin,0+fullscreenmargin,room_width-(fullscreenmargin*2),room_height-(fullscreenmargin*2));
 	else
 	draw_sprite_stretched(sExtras,pos-1,0+fullscreenmargin,0+fullscreenmargin,room_width-(fullscreenmargin*2),room_height-(fullscreenmargin*2));

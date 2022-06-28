@@ -9,6 +9,7 @@ if(point_in_circle(oPlayer.x,oPlayer.y,x,y,64)) and (!instance_exists(oText)) an
 	with(instance_create_depth(x,bbox_top-16,-10000,oText))
 	{
 		text = string_replace(other.text,"Caelan",global.name[global.character]);
+		text = string_replace(text,"Chris's","Chris'");
 		text = string_replace(text,"Space Bar",ChooseDependingOnInput("Space Bar","A Button"));
 		text = string_replace(text,"Press Enter",ChooseDependingOnInput("Press Enter","Press the A Button"));
 		length = string_length(text);

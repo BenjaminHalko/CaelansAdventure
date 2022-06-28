@@ -1,8 +1,12 @@
 {
-    "id": "1c1eb1a5-6474-4d5e-82fe-e77ff5e16f26",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongJingleBells",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongJingleBells",
+  "tags": [],
+  "resourceType": "GMScript",
 }

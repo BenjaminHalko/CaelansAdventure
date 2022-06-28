@@ -4,7 +4,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 draw_set_colour(c_white);
 
-draw_sprite(sTitle,global.annaramode,room_width/2,texty+sprite_get_height(sTitle)/2);
+draw_sprite(sTitle,global.user,room_width/2,texty+sprite_get_height(sTitle)/2);
 
 for(var i = 0; i < array_length_1d(text); i++)
 {

@@ -125,9 +125,11 @@ else
 	topcolour[PLAYER.A] = c_fuchsia;
 	topcolour[PLAYER.B] = make_colour_rgb(255,161,0);
 	topcolour[PLAYER.E] = c_lime;
+	topcolour[PLAYER.CH] = c_purple;
 
 	bottomcolour[PLAYER.C] = c_blue;
 	bottomcolour[PLAYER.A] = c_red;
 	bottomcolour[PLAYER.B] = c_dkgray;
 	bottomcolour[PLAYER.E] = c_purple;
+	bottomcolour[PLAYER.CH] = c_aqua;
 }

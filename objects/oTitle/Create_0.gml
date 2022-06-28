@@ -8,4 +8,4 @@ y = room_height/2;
 iconrotation = 0;
 iconscale = 15;
 image_speed = 0;
-image_index = global.annaramode;
+image_index = global.user;

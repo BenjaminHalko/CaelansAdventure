@@ -1,8 +1,12 @@
 {
-    "id": "86b94002-a506-41a5-a7ab-15178812220f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongMerryChristmas",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongMerryChristmas",
+  "tags": [],
+  "resourceType": "GMScript",
 }

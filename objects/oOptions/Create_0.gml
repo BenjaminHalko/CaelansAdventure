@@ -1,6 +1,6 @@
 /// @desc
-text[5] = "Credits";
-text[4] = "Switch\nUser:";
+text[4] = "Credits";
+//text[4] = "Switch User";
 text[3] = "Gameplay\nOptions";
 text[2] = "Display\nOptions";
 text[1] = "Audio\nOptions";

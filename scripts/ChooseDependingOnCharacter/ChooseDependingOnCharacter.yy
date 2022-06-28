@@ -1,8 +1,12 @@
 {
-    "id": "3b574ef1-dc2e-45f1-8125-420690b1edbc",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "ChooseDependingOnCharacter",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ChooseDependingOnCharacter",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -3,7 +3,8 @@ enum PLAYER
 	C,
 	A,
 	B,
-	E
+	E,
+	CH
 }
 hsp = 0;
 if(room != rCastleB)
@@ -90,10 +91,23 @@ spriterun[PLAYER.E,true] = sPlayerRunSnowE;
 spritejump[PLAYER.E,true] = sPlayerJumpSnowE;
 spritefall[PLAYER.E,true] = sPlayerFallSnowE;
 
+spritestand[PLAYER.CH,false] = sPlayerCh;
+spriterun[PLAYER.CH,false] = sPlayerRunCh;
+spritejump[PLAYER.CH,false] = sPlayerJumpCh;
+spritefall[PLAYER.CH,false] = sPlayerFallCh;
+spriteswimming[PLAYER.CH] = sPlayerSwimmingC;
+spriteswimmingrun[PLAYER.CH] = sPlayerSwimmingRunC;
+
+spritestand[PLAYER.CH,true] = sPlayerSnowCh;
+spriterun[PLAYER.CH,true] = sPlayerRunSnowCh;
+spritejump[PLAYER.CH,true] = sPlayerJumpSnowCh;
+spritefall[PLAYER.CH,true] = sPlayerFallSnowCh;
+
 spriteending[PLAYER.C] = sPlayerEndingC;
 spriteending[PLAYER.A] = sPlayerEndingA;
 spriteending[PLAYER.B] = sPlayerEndingB;
 spriteending[PLAYER.E] = sPlayerEndingE;
+spriteending[PLAYER.CH] = sPlayerEndingC;
 
 if(!instance_exists(oCamera)) and (room != rFinalBossEvilRoomFight)
 {

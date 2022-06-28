@@ -9,7 +9,7 @@ character[1] = global.name[PLAYER.A];
 character[2] = global.name[PLAYER.B];
 character[3] = global.name[PLAYER.E];
 
-if(global.annaramode)
+if(global.user == USER.ANNARA)
 {
 	character[0] = global.name[PLAYER.A];
 	character[1] = global.name[PLAYER.C];
@@ -29,7 +29,7 @@ if(oGlobalController.levelselected == rSnow) or (oGlobalController.levelselected
 	sprite[2] = sPlayerRunSnowB;
 	sprite[3] = sPlayerRunSnowE;
 	
-	if(global.annaramode)
+	if(global.user == USER.ANNARA)
 	{
 		sprite[0] = sPlayerRunSnowA;
 		sprite[1] = sPlayerRunSnowC;
@@ -42,7 +42,7 @@ else
 	sprite[2] = sPlayerRunB;
 	sprite[3] = sPlayerRunE;
 	
-	if(global.annaramode)
+	if(global.user == USER.ANNARA)
 	{
 		sprite[0] = sPlayerRunA;
 		sprite[1] = sPlayerRunC;

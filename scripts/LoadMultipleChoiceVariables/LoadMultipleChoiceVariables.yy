@@ -1,8 +1,12 @@
 {
-    "id": "a230ec92-d0ed-46f8-9df3-c2c93ac9f547",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "LoadMultipleChoiceVariables",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "MultipleChoice",
+    "path": "folders/Scripts/Test/MultipleChoice.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "LoadMultipleChoiceVariables",
+  "tags": [],
+  "resourceType": "GMScript",
 }

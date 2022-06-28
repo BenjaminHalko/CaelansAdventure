@@ -1,3 +1,7 @@
 /// @desc Rumble
+function Rumble() {
 
-oGlobalController.rumble = true
+	oGlobalController.rumble = true
+
+
+}

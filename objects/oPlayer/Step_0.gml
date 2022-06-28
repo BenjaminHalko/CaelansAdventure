@@ -333,6 +333,7 @@ if(sprite_index != spriteending[global.character])
 			else
 			{
 				sprite_index = spriteswimmingrun[global.character];
+				image_speed = abs(hsp/walksp);
 			}
 		}
 		else
@@ -396,6 +397,7 @@ if(sprite_index != spriteending[global.character])
 		else
 		{
 			sprite_index = spriterun[global.character,snow];	
+			image_speed = abs(hsp/walksp);
 		}
 	}
 

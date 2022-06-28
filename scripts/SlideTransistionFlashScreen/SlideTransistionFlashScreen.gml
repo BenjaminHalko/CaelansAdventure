@@ -1,37 +1,41 @@
 /// @desc SlideTrasition(mode, targetroom)
 /// @arg Mode sets transition mode between next, restart and goto.
 /// @arg Target sets target room when using the goto mode.
+function SlideTransistionFlashScreen() {
 
-with (oTransition)
-{
-	flash = false;
-	flashscreen = true;
-	mode = argument[0];
-	if (argument_count > 1) target = argument[1];
-	else
+	with (oTransition)
 	{
-		switch(mode)
+		flash = false;
+		flashscreen = true;
+		mode = argument[0];
+		if (argument_count > 1) target = argument[1];
+		else
 		{
-			case TRANS_MODE.NEXT:
+			switch(mode)
 			{
-				target = room+1;
-				break;
-			}
-			case TRANS_MODE.PREVIOUS:
-			{
-				target = room-1;
-				break;
-			}
-			case TRANS_MODE.RESTART:
-			{
-				target = rInt;
-				break;
-			}
-			default:
-			{
-				target = room;
-				break;
+				case TRANS_MODE.NEXT:
+				{
+					target = room+1;
+					break;
+				}
+				case TRANS_MODE.PREVIOUS:
+				{
+					target = room-1;
+					break;
+				}
+				case TRANS_MODE.RESTART:
+				{
+					target = rInt;
+					break;
+				}
+				default:
+				{
+					target = room;
+					break;
+				}
 			}
 		}
 	}
+
+
 }

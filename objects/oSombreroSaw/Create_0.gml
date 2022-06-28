@@ -8,7 +8,7 @@ phase = 0;
 number = irandom_range(2,6);
 spd = 1;
 fallspd = irandom_range(2,5);
-if(global.annaramode)
+if(global.user == USER.ANNARA)
 {
 	if(irandom(1) == 0)
 	{

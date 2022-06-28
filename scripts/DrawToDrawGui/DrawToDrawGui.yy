@@ -1,8 +1,12 @@
 {
-    "id": "7d345088-3a97-4668-826f-cc11f5b54ee6",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "DrawToDrawGui",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "DrawToDrawGui",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,175 +1,96 @@
 {
-    "id": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "sHouseDoorHauntedHouse",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 84,
-    "bbox_left": 0,
-    "bbox_right": 72,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "ef5b512e-80d8-41a6-a003-7eea53ae0fff",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "compositeImage": {
-                "id": "7bae4484-b019-4c34-8922-6239e0582bd5",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "ef5b512e-80d8-41a6-a003-7eea53ae0fff",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "38b6c087-d633-404c-8d49-b79f183a2ea8",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "ef5b512e-80d8-41a6-a003-7eea53ae0fff",
-                    "LayerId": "5f04d514-bcff-4367-860e-7c3e683f5840"
-                },
-                {
-                    "id": "753fc0c6-459a-4023-ab03-93ca3218ce9a",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "ef5b512e-80d8-41a6-a003-7eea53ae0fff",
-                    "LayerId": "76ea7f8d-3bbf-4491-ba4e-ace1373adee7"
-                }
-            ]
-        },
-        {
-            "id": "e9098643-acbc-4eb3-a4de-368240bba36c",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "compositeImage": {
-                "id": "0bb5f94e-8197-4290-a1c5-694893be6d85",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "e9098643-acbc-4eb3-a4de-368240bba36c",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "e6ef51b1-88e3-43ab-bba4-d683edfa519b",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "e9098643-acbc-4eb3-a4de-368240bba36c",
-                    "LayerId": "5f04d514-bcff-4367-860e-7c3e683f5840"
-                },
-                {
-                    "id": "7d1175c4-021b-4212-8733-cc9a2c3af55b",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "e9098643-acbc-4eb3-a4de-368240bba36c",
-                    "LayerId": "76ea7f8d-3bbf-4491-ba4e-ace1373adee7"
-                }
-            ]
-        },
-        {
-            "id": "489b7edb-d222-4381-9872-44143b71581c",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "compositeImage": {
-                "id": "0ed419e0-288d-42a3-97ac-6a40226d89dd",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "489b7edb-d222-4381-9872-44143b71581c",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "55088e57-28f9-4dcd-9b29-12534d1fcbc5",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "489b7edb-d222-4381-9872-44143b71581c",
-                    "LayerId": "5f04d514-bcff-4367-860e-7c3e683f5840"
-                },
-                {
-                    "id": "949b99b9-94c4-4dcf-9f7d-f9d269b65a58",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "489b7edb-d222-4381-9872-44143b71581c",
-                    "LayerId": "76ea7f8d-3bbf-4491-ba4e-ace1373adee7"
-                }
-            ]
-        },
-        {
-            "id": "3830ff4d-c82e-46b9-b20d-d5dd45f34c1b",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "compositeImage": {
-                "id": "0986be09-0a2c-417a-af61-902df8b2f9ad",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "3830ff4d-c82e-46b9-b20d-d5dd45f34c1b",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "7cf3b8fe-1ac4-4cfe-a414-03ab36580493",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3830ff4d-c82e-46b9-b20d-d5dd45f34c1b",
-                    "LayerId": "5f04d514-bcff-4367-860e-7c3e683f5840"
-                },
-                {
-                    "id": "92d9b656-3f8e-4702-995a-b627aeafb13e",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3830ff4d-c82e-46b9-b20d-d5dd45f34c1b",
-                    "LayerId": "76ea7f8d-3bbf-4491-ba4e-ace1373adee7"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 85,
-    "layers": [
-        {
-            "id": "5f04d514-bcff-4367-860e-7c3e683f5840",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "76ea7f8d-3bbf-4491-ba4e-ace1373adee7",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "cd14627d-e49a-4421-bcdb-96064fc3a4a3",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Layer 1",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 7,
-    "originLocked": false,
-    "playbackSpeed": 15,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 72,
+  "bbox_top": 0,
+  "bbox_bottom": 84,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 73,
+  "height": 85,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"ef5b512e-80d8-41a6-a003-7eea53ae0fff","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef5b512e-80d8-41a6-a003-7eea53ae0fff","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"5f04d514-bcff-4367-860e-7c3e683f5840","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ef5b512e-80d8-41a6-a003-7eea53ae0fff","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"76ea7f8d-3bbf-4491-ba4e-ace1373adee7","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"ef5b512e-80d8-41a6-a003-7eea53ae0fff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e9098643-acbc-4eb3-a4de-368240bba36c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e9098643-acbc-4eb3-a4de-368240bba36c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"5f04d514-bcff-4367-860e-7c3e683f5840","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e9098643-acbc-4eb3-a4de-368240bba36c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"76ea7f8d-3bbf-4491-ba4e-ace1373adee7","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"e9098643-acbc-4eb3-a4de-368240bba36c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"489b7edb-d222-4381-9872-44143b71581c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"489b7edb-d222-4381-9872-44143b71581c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"5f04d514-bcff-4367-860e-7c3e683f5840","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"489b7edb-d222-4381-9872-44143b71581c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"76ea7f8d-3bbf-4491-ba4e-ace1373adee7","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"489b7edb-d222-4381-9872-44143b71581c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3830ff4d-c82e-46b9-b20d-d5dd45f34c1b","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3830ff4d-c82e-46b9-b20d-d5dd45f34c1b","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"5f04d514-bcff-4367-860e-7c3e683f5840","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3830ff4d-c82e-46b9-b20d-d5dd45f34c1b","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"LayerId":{"name":"76ea7f8d-3bbf-4491-ba4e-ace1373adee7","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","name":"3830ff4d-c82e-46b9-b20d-d5dd45f34c1b","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 73,
-    "xorig": 36,
-    "yorig": 84
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 4.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"34fc6900-3036-4a97-9772-308b7874996a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef5b512e-80d8-41a6-a003-7eea53ae0fff","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"54ec4eb3-7f07-4e88-8b2a-4988a780ab83","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9098643-acbc-4eb3-a4de-368240bba36c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6aaf7d37-f5f4-49ce-893e-d1d6d918ab2e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"489b7edb-d222-4381-9872-44143b71581c","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6c3dd698-fe4e-41a2-b116-16567f51018e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3830ff4d-c82e-46b9-b20d-d5dd45f34c1b","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 36,
+    "yorigin": 84,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sHouseDoorHauntedHouse","path":"sprites/sHouseDoorHauntedHouse/sHouseDoorHauntedHouse.yy",},
+    "resourceVersion": "1.4",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f04d514-bcff-4367-860e-7c3e683f5840","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"76ea7f8d-3bbf-4491-ba4e-ace1373adee7","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "End Of Level",
+    "path": "folders/Sprites/Collidables/End Of Level.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sHouseDoorHauntedHouse",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

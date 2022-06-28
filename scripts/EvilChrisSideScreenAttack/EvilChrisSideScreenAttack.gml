@@ -1,23 +1,27 @@
-attackphase = irandom(1);
-switch(attackphase)
-{
-	case 0:
+function EvilChrisSideScreenAttack() {
+	attackphase = irandom(1);
+	switch(attackphase)
 	{
-		repeat(20)
+		case 0:
 		{
-			instance_create_layer(irandom_range(room_width/2,864),-100,"Weapons",oSideScreenAttack);
+			repeat(20)
+			{
+				instance_create_layer(irandom_range(room_width/2,864),-100,"Weapons",oSideScreenAttack);
+			}
+			break;
 		}
-		break;
-	}
-	case 1:
-	{
-		repeat(20)
+		case 1:
 		{
-			instance_create_layer(irandom_range(room_width/2,96),-100,"Weapons",oSideScreenAttack);
+			repeat(20)
+			{
+				instance_create_layer(irandom_range(room_width/2,96),-100,"Weapons",oSideScreenAttack);
+			}
+			break;
 		}
-		break;
 	}
-}
 
-stopattack = true;
-alarm[4] = room_speed*4;
+	stopattack = true;
+	alarm[4] = room_speed*4;
+
+
+}

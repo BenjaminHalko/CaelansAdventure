@@ -24,7 +24,7 @@ else if(phase == 0)
 		{
 			case 0:
 			{
-				if(global.annaramode)
+				if(global.user == USER.ANNARA)
 				global.character = PLAYER.A;
 				else
 				global.character = PLAYER.C;
@@ -32,7 +32,7 @@ else if(phase == 0)
 			}
 			case 1:
 			{
-				if(!global.annaramode)
+				if(global.user != USER.ANNARA)
 				global.character = PLAYER.A;
 				else
 				global.character = PLAYER.C;

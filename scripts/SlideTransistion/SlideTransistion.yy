@@ -1,8 +1,12 @@
 {
-    "id": "3e088107-cfa6-4b4b-9010-4d4cdc574b33",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SlideTransistion",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SlideTransistion",
+  "tags": [],
+  "resourceType": "GMScript",
 }

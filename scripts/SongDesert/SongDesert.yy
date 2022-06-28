@@ -1,8 +1,12 @@
 {
-    "id": "3b144fe4-7368-4320-a888-308085cd3a35",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongDesert",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongDesert",
+  "tags": [],
+  "resourceType": "GMScript",
 }

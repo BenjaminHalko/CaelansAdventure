@@ -6,7 +6,7 @@ if(global.credits)
 	music[room] = mCredits;
 }
 
-if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound) and (oTransition.target != rOptionsDisplay) and (oTransition.target != rOptionsGameplay) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (oTransition.target != rCreditsOptions) and (!unpersistant) and (!audio_is_playing(mCredits)) and (previousroom != rPause) and (oTransition.mode != TRANS_MODE.RESTART) and (oTransition.mode != TRANS_MODE.QUIT)
+if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound) and (oTransition.target != rOptionsDisplay) and (oTransition.target != rOptionsGameplay) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (oTransition.target != rCreditsOptions) and (oTransition.target != rUserSelect) and (!unpersistant) and (!audio_is_playing(mCredits)) and (previousroom != rPause) and (oTransition.mode != TRANS_MODE.RESTART) and (oTransition.mode != TRANS_MODE.QUIT)
 {
 	if(oTransition.mode == TRANS_MODE.INTRO) and (previousroom != rPause)
 	{

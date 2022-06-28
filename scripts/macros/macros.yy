@@ -1,8 +1,12 @@
 {
-    "id": "9a917604-332f-4b4e-b1f9-3f13fa4a1849",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "macros",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "macros",
+  "tags": [],
+  "resourceType": "GMScript",
 }

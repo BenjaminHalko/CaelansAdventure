@@ -1,8 +1,12 @@
 {
-    "id": "62cfd964-520d-43b8-8031-998f81c56fbf",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "EvilChrisLaserAttack",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Evil Chris Attacks",
+    "path": "folders/Scripts/Evil Chris Attacks.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "EvilChrisLaserAttack",
+  "tags": [],
+  "resourceType": "GMScript",
 }

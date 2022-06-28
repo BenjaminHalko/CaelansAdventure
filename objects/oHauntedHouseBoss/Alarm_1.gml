@@ -17,7 +17,7 @@ if(hitplayer)
 else if(phase != 9)
 {
 	phase++;
-	if(global.annaramode) and (phase >= 4) and (phase < 7)
+	if(global.user == USER.ANNARA) and (phase >= 4) and (phase < 7)
 	{
 		phase = 7;
 	}

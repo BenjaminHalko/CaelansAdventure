@@ -8,7 +8,7 @@ attacking = false;
 hp = 10000;
 phase = 0;
 playerhealth = 30;
-if(global.annaramode) playerhealth = 50;
+if(global.user == USER.ANNARA) playerhealth = 50;
 playermaxhealth = playerhealth;
 playerinvinciblity = room_speed;
 playerflash = false;

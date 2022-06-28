@@ -1,13 +1,13 @@
 /// @desc
 if(active) and (movespd != 0)
 {
-	if(global.annaramode)
+	if(global.user == USER.ANNARA)
 	x += movespd/1.5;
 	else
 	x += movespd;
 	with(oMovingWallSides)
 	{
-		if(global.annaramode)
+		if(global.user == USER.ANNARA)
 		x += other.movespd/1.5;
 		else
 		x += other.movespd;

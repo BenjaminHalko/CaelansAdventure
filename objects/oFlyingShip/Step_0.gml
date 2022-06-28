@@ -194,7 +194,7 @@ if(alarm[0] <= 0)
 }
 SetAlarm(1,phasedelay[phase]);
 y = Wave(ystart-floatmargin,ystart+floatmargin,3,0);
-if(phase >= 5) and (!global.annaramode)
+if(phase >= 5) and (global.user != USER.ANNARA)
 {
 	PlaySong(mBossHurry,true);
 	image_blend = make_color_hsv(0,Wave(0,255,2,0),255);

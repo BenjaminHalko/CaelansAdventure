@@ -1,10 +1,18 @@
 /// @desc
-global.forWebsite = true;
+global.forWebsite = false;
 firststart = false;
 char = 0;
 text = "Press Any Key";
 textToDraw = "";
-global.annaramode = Load("Settings","User",false);
+
+enum USER
+{
+	CAELAN = 0,
+	ANNARA = 1,
+	CHRIS = 2
+}
+
+global.user = Load("Settings","User",USER.CAELAN);
 display_set_gui_size(1920,1080);
 InitalizeTestVariables();
 LoadVoiceVariables();
@@ -14,7 +22,7 @@ instance_create_layer(0,0,layer,oMouse);
 randomize();
 
 global.credits = false;
-global.completed = Load("Info","Completed",false);
+global.completed = true//Load("Info","Completed",false);
 global.iconnumber = Load("Info","Icon Number",0);
 global.infintejump = Load("Settings","InfiniteJump",true);
 global.numberofextras = sprite_get_number(sExtras);
@@ -33,6 +41,16 @@ global.screenKeyActivePressed[OnScreenKeys.UP] = false;
 global.screenKeyActivePressed[OnScreenKeys.DOWN] = false;
 global.screenKeyActive[OnScreenKeys.A] = false;
 global.screenKeyActive[OnScreenKeys.B] = false;
+
+global.analogStickPressed[0,0] = false;
+global.analogStickPressed[1,0] = false;
+global.analogStickPressed[2,0] = false;
+global.analogStickPressed[3,0] = false;
+
+global.analogStickPressed[0,1] = current_time;
+global.analogStickPressed[1,1] = current_time;
+global.analogStickPressed[2,2] = current_time;
+global.analogStickPressed[3,3] = current_time;
 
 global.gp = 0;
 global.gamepadconnected = false;
@@ -62,7 +80,7 @@ if(audio_group_is_loaded(agSoundEffects)) and (audio_group_is_loaded(agMusic)) a
 	audio_group_set_gain(agMusic,0.5*Load("Settings","Music Volume",0.5),10);
 	audio_group_set_gain(agSoundEffects,Load("Settings","Sound Effects Volume",0.5),10);
 	audio_group_set_gain(agVoiceClips,Load("Settings","Voice Clips Volume",0.5),10);
-	if(Load("Info","Room",noone) == noone)
+	if(Load("Info","Room",noone) == noone) and false
 	{
 		firststart = true;
 		oTransition.percent = 0;
@@ -77,4 +95,4 @@ else
 	audio_group_load(agVoiceClips);
 }
 
-window_set_fullscreen(Load("Settings","Fullscreen",true))
+//if(os_type != os_android) window_set_fullscreen(Load("Settings","Fullscreen",true))

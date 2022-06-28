@@ -141,7 +141,7 @@ if(start)
 			hp -= 1;
 			allowhit = false;
 			SetAlarm(4,room_speed/3);
-			if(hp <= 0) or (global.annaramode and hp <= 3)
+			if(hp <= 0) or (global.user == USER.ANNARA and hp <= 3)
 			{
 				phase = 5;
 				alarm[5] = room_speed;

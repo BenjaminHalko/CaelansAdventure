@@ -22,11 +22,11 @@ if(!active)
 		if(x == xstart)
 		{
 			SetAlarm(0,room_speed/4);
-			sprite_index = sChris;
+			sprite_index = sPlayerCh;
 		}
 		else
 		{
-			sprite_index = sChrisRun;
+			sprite_index = sPlayerRunCh;
 			image_speed = 1;
 		}
 	}

@@ -1,8 +1,12 @@
 {
-    "id": "56d28f1b-cb1c-4ac5-9877-115eae3fd569",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongForest",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongForest",
+  "tags": [],
+  "resourceType": "GMScript",
 }

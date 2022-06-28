@@ -8,4 +8,9 @@
 ///@arg angle
 ///@arg blend
 ///@arg alpha
+function DrawToDrawGui() {
 
+
+
+
+}

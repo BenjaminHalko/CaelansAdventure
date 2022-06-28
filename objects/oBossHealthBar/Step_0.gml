@@ -23,7 +23,7 @@ switch(room)
 		{
 			bossHealth = oBossUnderground.hp;
 			bossMaxHealth = 8;
-			if(global.annaramode)
+			if(global.user == USER.ANNARA)
 			{
 				bossHealth -= 3;
 				bossMaxHealth -= 3;
@@ -41,7 +41,7 @@ switch(room)
 		{
 			bossHealth = oDesertBoss.hp;
 			bossMaxHealth = 15;
-			if(global.annaramode)
+			if(global.user == USER.ANNARA)
 			{
 				bossHealth -= 3;
 				bossMaxHealth -= 3;
@@ -59,7 +59,7 @@ switch(room)
 		{
 			bossHealth = oSnowBoss.hp;
 			bossMaxHealth = 5;
-			if(global.annaramode)
+			if(global.user == USER.ANNARA)
 			{
 				bossMaxHealth = 3;
 			}
@@ -76,7 +76,7 @@ switch(room)
 		{
 			bossHealth = oForestBoss.hp;
 			bossMaxHealth = 7;
-			if(global.annaramode)
+			if(global.user == USER.ANNARA)
 			{
 				bossHealth -= 3;
 				bossMaxHealth -= 3;
@@ -109,7 +109,7 @@ switch(room)
 		{
 			bossHealth = 7-oFlyingShip.phase;
 			bossMaxHealth = 7;
-			if(global.annaramode)
+			if(global.user == USER.ANNARA)
 			{
 				bossHealth -= 2;
 				bossMaxHealth -= 2;

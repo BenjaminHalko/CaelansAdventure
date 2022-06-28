@@ -56,7 +56,8 @@ length = 165*room_speed/8;
 
 previousroom = noone;
 
-global.character = global.annaramode;
+global.character = PLAYER.C;
+if(global.user == USER.ANNARA) global.character = PLAYER.A;
 
 levelselected = noone;
 
@@ -64,11 +65,13 @@ global.name[PLAYER.C] = "Caelan";
 global.name[PLAYER.A] = "Annara";
 global.name[PLAYER.B] = "Benjamin";
 global.name[PLAYER.E] = "Emma";
+global.name[PLAYER.CH] = "Chris";
 
 global.birthday[PLAYER.C] = date_create_datetime(2011,3,6,0,0,0);
 global.birthday[PLAYER.A] = date_create_datetime(2014,1,18,0,0,0);
 global.birthday[PLAYER.B] = date_create_datetime(2005,4,11,0,0,0);
 global.birthday[PLAYER.E] = date_create_datetime(2008,9,14,0,0,0);
+global.birthday[PLAYER.CH] = date_create_datetime(1973,9,6,0,0,0);
 
 global.onoff = false;
 

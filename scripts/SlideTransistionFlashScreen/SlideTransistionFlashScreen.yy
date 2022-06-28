@@ -1,8 +1,12 @@
 {
-    "id": "12fbeabc-6562-492e-adce-1b2ac9f7c69e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SlideTransistionFlashScreen",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helpful Scripts",
+    "path": "folders/Scripts/Helpful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SlideTransistionFlashScreen",
+  "tags": [],
+  "resourceType": "GMScript",
 }

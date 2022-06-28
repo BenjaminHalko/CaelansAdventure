@@ -88,7 +88,7 @@ fullscreenmargin = 10;
 
 y -= margin;
 
-if(global.annaramode)
+if(global.user == USER.ANNARA)
 {
 	text[1] = "Annara";
 	text[2] = "Caelan";

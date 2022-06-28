@@ -1,8 +1,12 @@
 {
-    "id": "97108415-29e8-4bb5-8b83-b2cccea406cd",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SongDeckHalls",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Songs",
+    "path": "folders/Scripts/Test/Music/Songs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SongDeckHalls",
+  "tags": [],
+  "resourceType": "GMScript",
 }

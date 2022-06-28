@@ -61,13 +61,13 @@ else if(selected)
 				room_persistent = true;
 				break;
 			}
-			case 4:
+			/*case 4:
 			{
-				Save("Settings","User",!global.annaramode);
-				SlideTransistion(TRANS_MODE.RESTART);
+				SlideTransistion(TRANS_MODE.GOTO,rUserSelect);
+				room_persistent = true;
 				break;
-			}
-			case 5:
+			}*/
+			case 4:
 			{
 				SlideTransistion(TRANS_MODE.GOTO,rCreditsOptions);
 				room_persistent = true;
