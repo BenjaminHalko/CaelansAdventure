@@ -1,0 +1,1 @@
+#macro Savefile "Save.ini"

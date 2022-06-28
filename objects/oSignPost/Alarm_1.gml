@@ -1,0 +1,2 @@
+/// @desc
+oPlayer.hascontrol = false;

@@ -1,0 +1,2 @@
+/// @desc
+oCamera.follow = id;
