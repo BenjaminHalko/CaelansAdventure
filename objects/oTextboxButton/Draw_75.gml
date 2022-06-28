@@ -7,15 +7,8 @@ var h = display_get_gui_height();
 
 var y2 = y1 + h;
 
-draw_sprite_ext(sprite_index,image_index,(x1+(w/2)),y2-(h/4),1,1,image_angle,image_blend,image_alpha);
-if(color_get_value(image_blend) < 128)
-{
-	draw_set_colour(c_white);
-}
-else
-{
-	draw_set_colour(c_black);
-}
+draw_sprite_ext(sprite_index,image_index,(x1+(w/2)),y2-(h/4)+(h/15)+h/40,1,1,image_angle,image_blend,image_alpha);
+draw_set_colour(c_aqua);
 
 draw_set_alpha(image_alpha);
 draw_set_font(fTestAnswer);
@@ -25,6 +18,6 @@ draw_set_valign(fa_middle);
 var width = string_width("Answer");
 var height = string_height("Answer");
 
-var scale = 100/max(width,height);
-draw_text_transformed((x1+(w/2)),y2-(h/4),"Answer",scale,scale,0);
+var scale = 175/max(width,height);
+draw_text_transformed((x1+(w/2)),y2-(h/4)+(h/15)+h/40,"Answer",scale,scale,0);
 draw_set_alpha(1);

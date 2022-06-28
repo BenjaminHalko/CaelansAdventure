@@ -1,0 +1,5 @@
+/// @desc
+image_speed = 0;
+image_index = irandom(image_number-1);
+yy = 0;
+alarm[0] = room_speed;

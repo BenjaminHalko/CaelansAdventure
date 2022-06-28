@@ -9,6 +9,6 @@
     "kind": 1,
     "preload": false,
     "sampleRate": 44100,
-    "type": 1,
+    "type": 0,
     "volume": 1
 }

@@ -13,10 +13,12 @@ else if(selected)
 	{
 		if(pos == 0)
 		{
-			if(global.gamepadconnected)
-			pos = array_length_1d(text)-1;
-			else
+			if(global.unlockedinfintejump)
+			pos = array_length_1d(text)-1; 
+			else if(global.gamepadconnected)
 			pos = array_length_1d(text)-2;
+			else
+			pos = array_length_1d(text)-3;
 		}
 		else
 		{
@@ -30,13 +32,24 @@ else if(selected)
 
 	if(key_down_pressed)
 	{
-		if(pos == array_length_1d(text)-1)
+		if((pos == array_length_1d(text)-1) and (global.unlockedinfintejump)) or ((pos == array_length_1d(text)-2) and (!global.unlockedinfintejump))
 		{
 			pos = 0;
 		}
 		else 
 		{
 			pos += 1;
+			if(pos == 3) and (!global.gamepadconnected)
+			{
+				if(!global.unlockedinfintejump)
+				{
+					pos = 0;
+				}
+				else
+				{
+					pos += 1;
+				}
+			}
 		}
 	}
 	
@@ -70,6 +83,12 @@ else if(selected)
 			{
 				global.rumble = !global.rumble;
 				Save("Settings","Rumble",global.rumble);
+				break;
+			}
+			case 4:
+			{
+				global.infintejump = !global.infintejump;
+				Save("Settings","InfiniteJump",global.infintejump);
 				break;
 			}
 		}

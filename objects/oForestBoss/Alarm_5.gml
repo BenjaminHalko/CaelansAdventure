@@ -1,0 +1,2 @@
+/// @desc
+stop = true;

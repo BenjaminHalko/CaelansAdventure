@@ -1,3 +1,3 @@
 /// @desc
-DrawIcon(x,y,0,iconscale,iconrotation,iconalpha,true);
+DrawIcon(x,y,global.iconnumber,iconscale,iconrotation,iconalpha,false);
 draw_self();

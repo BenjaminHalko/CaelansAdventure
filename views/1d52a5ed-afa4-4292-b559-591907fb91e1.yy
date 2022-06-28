@@ -16,12 +16,14 @@
         "5e944356-5c5e-45f1-825f-ce63dd200e9a",
         "f3bab849-3f38-4651-8f9a-31254e216309",
         "608b3fa2-dd48-4a30-88c9-ae40df959956",
-        "261227ef-787c-4b3f-8ed1-2338bfdd8ad4",
         "d1ca9574-9bbd-49f9-bcbd-df896ec94e81",
         "3b574ef1-dc2e-45f1-8125-420690b1edbc",
         "185b74f5-ca90-4460-8a52-afdc4f84fd88",
         "37a4724b-1999-4ee7-b78a-c13bdb2ca141",
-        "ae34fdcd-d72d-49b5-938a-949cb18dead6"
+        "ae34fdcd-d72d-49b5-938a-949cb18dead6",
+        "d2ed1cf2-77aa-4d29-b5c2-9bb32844fa7f",
+        "7d345088-3a97-4668-826f-cc11f5b54ee6",
+        "8a7fcea3-52a0-4b3d-afc5-25c70ca68df0"
     ],
     "filterType": "GMScript",
     "folderName": "Helpful Scripts",

@@ -1,23 +1,32 @@
 /// @desc
 
 #region Music
-if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound) and (oTransition.target != rOptionsDisplay) and (oTransition.target != rOptionsGameplay) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (!unpersistant)
+if(global.credits)
 {
-	if(oTransition.mode == TRANS_MODE.INTRO)
+	music[room] = mCredits;
+}
+
+if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound) and (oTransition.target != rOptionsDisplay) and (oTransition.target != rOptionsGameplay) and (oTransition.target != rOptions) and (oTransition.target != rControls) and (oTransition.target != rPause) and (oTransition.target != rCreditsOptions) and (!unpersistant) and (!audio_is_playing(mCredits)) and (previousroom != rPause) and (oTransition.mode != TRANS_MODE.RESTART) and (oTransition.mode != TRANS_MODE.QUIT)
+{
+	if(oTransition.mode == TRANS_MODE.INTRO) and (previousroom != rPause)
 	{
 		if(!audio_is_playing(music[room]))
 		{
 			audio_stop_sound(musicplaying);
-			if(room == rCredits)
-			musicplaying = audio_play_sound(music[room],1,false);
-			else
-			musicplaying = audio_play_sound(music[room],1,true);
-			song = music[room];
-			songplaying = music[room];
+			
+			if(music[room] != noone)
+			{
+				if(room == rFinalBossEvilChrisFight) or (room == rFinalBossEvilRoomFight) or (music[room] == mCredits)
+				musicplaying = audio_play_sound(music[room],10,false);
+				else
+				musicplaying = audio_play_sound(music[room],10,true);
+				song = music[room];
+				songplaying = music[room];
+			}
 		}
 		vol = min(1.2,vol+max(((1.2-vol)/oTransition.percentspd),0.005));
 	}
-	else
+	else if(!instance_exists(oPause))
 	{
 		if(music[oTransition.target] != song)
 		vol = max(0,vol-max((vol/oTransition.percentspd),0.005));
@@ -25,7 +34,7 @@ if(oTransition.mode != TRANS_MODE.OFF) and (oTransition.target != rOptionsSound)
 }
 else
 {
-	if(songplaying != song)
+	if(songplaying != song) or (oTransition.mode == TRANS_MODE.RESTART) or (oTransition.mode == TRANS_MODE.QUIT)
 	{
 		vol = max(0,vol-max((vol/oTransition.percentspd),0.005));
 		if(vol <= 0.005)
@@ -55,10 +64,20 @@ else
 
 vol = median(0,vol,1);
 audio_sound_gain(musicplaying,vol,0);
+
+if(room == rFinalBossEvilChrisFight)
+{
+	if(!audio_is_playing(mEvilChrisBossIntro)) and (!audio_is_playing(mEvilChrisBoss))
+	{
+		musicplaying = audio_play_sound(mEvilChrisBoss,1,true);
+		song = musicplaying;
+		songplaying = musicplaying;
+	}
+}
 #endregion
 
 #region
-if(previousroom != rPause) and (room != rLevelSelect) and (room_persistent) and (oTransition.target != rPause) and (oTransition.mode == TRANS_MODE.INTRO)
+if(previousroom != rPause) and (room != rLevelSelect) and (room_persistent) and (oTransition.target != rPause) and (oTransition.mode == TRANS_MODE.INTRO) and (room != rAirshipInside) and (room != rAirshipOutside) and (room != rAirshipNightInside) and (room != rAirshipNightOutside)
 {
 	room_persistent = false;
 	room_restart();
@@ -66,9 +85,27 @@ if(previousroom != rPause) and (room != rLevelSelect) and (room_persistent) and 
 #endregion
 
 #region Fullscreen
-if(!window_get_fullscreen())
+if(!window_get_fullscreen()) and (!oTransition.quitmode)
 {
-	window_set_size(960,540);
+	if(windowsize != window_get_width())
+	{
+		windowsize = window_get_width();
+		Save("Settings","WindowSize",windowsize);
+	}
+	else if(windowsize/(1920/1080) != window_get_height()) and (windowsize != display_get_width())
+	{
+		windowsize = window_get_height()*(1920/1080);
+		Save("Settings","WindowSize",windowsize);
+	}
+	window_set_size(windowsize,windowsize/(1920/1080));
+	
+	if(windowx != window_get_x()) or (windowy != window_get_y())
+	{
+		windowx = window_get_x();
+		windowy = window_get_y();
+		Save("Settings","WindowX",windowx);
+		Save("Settings","WindowY",windowy);
+	}
 }
 #endregion
 
@@ -85,6 +122,7 @@ if(!global.gamepadconnected)
 			break;
 		}
 	}
+	gamepad_set_axis_deadzone(global.gp,0.05);
 }
 else
 {
@@ -107,3 +145,8 @@ else if(keyboard_key_up_pressed) or (keyboard_key_down_pressed) or (keyboard_key
 	global.switchedinput = true;
 }
 #endregion
+
+if(global.credits)
+{
+	SetAlarm(0,length);
+}

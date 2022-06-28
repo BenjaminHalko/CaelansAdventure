@@ -1,3 +1,5 @@
-# Winter Demo
+# Version 1.0.0
 
-The daytime levels of the first 4 zones with a wintery twist!
+I made a physical DVD using this version.
+
+![DVD Case](https://github.com/BenjaminHalko/CaelansAdventure/raw/main/CD/DVD%20Cover.png)

@@ -1,5 +1,5 @@
 {
-    "id": "041251b4-bac6-411c-afea-d2dcb8630a79",
+    "id": "b7bf13a4-5e96-4cec-8e64-00a500fa1c7d",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "mDesertDay",
@@ -9,6 +9,6 @@
     "kind": 1,
     "preload": false,
     "sampleRate": 44100,
-    "type": 0,
+    "type": 1,
     "volume": 1
 }

@@ -8,7 +8,8 @@
         "ef53b5ba-1523-42fc-b70f-4100d31a1296",
         "b462a824-47b7-4c8c-a52a-f079e09a9400",
         "f4e28f18-85c0-4755-b2aa-3c561c35f4c6",
-        "cb65f076-78dc-428e-9c2e-00d0abf26602"
+        "cb65f076-78dc-428e-9c2e-00d0abf26602",
+        "7786ab91-d78d-4c1c-b750-dc79bd32b8d2"
     ],
     "filterType": "GMRoom",
     "folderName": "Options",

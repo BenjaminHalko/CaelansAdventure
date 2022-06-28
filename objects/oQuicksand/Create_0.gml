@@ -7,3 +7,5 @@ if(instance_place(x,bbox_bottom+1,oQuicksand) == noone)
 		mask_index = sQuicksandMask;
 	}
 }
+invisible = false;
+alarm[1] = 1;

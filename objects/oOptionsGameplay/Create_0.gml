@@ -1,4 +1,5 @@
 /// @desc
+text[4] = "Flying";
 text[3] = "Rumble";
 text[2] = "Auto\nJump";
 text[1] = "Controls";

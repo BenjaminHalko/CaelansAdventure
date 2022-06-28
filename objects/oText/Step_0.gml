@@ -7,16 +7,19 @@ draw_set_font(fSign);
 if(h==0) h = string_height(text);
 w = string_width(text_current);
 
-if(letters > length) and !(point_in_circle(oPlayer.x,oPlayer.y,x,y,128)) and (creator != noone)
+if(instance_exists(oPlayer))
 {
-	instance_destroy();
-	with(oCamera) follow = oPlayer;
+	if(letters > length) and !(point_in_circle(oPlayer.x,oPlayer.y,x,y,128)) and (creator != noone)
+	{
+		instance_destroy();
+		with(oCamera) follow = oPlayer;
+	}
 }
 
 if(text_previous != text_current)
 {
 	text_previous = text_current;
-	if(global.retrovoice)
+	if(global.retrovoice) and (!global.credits)
 	{
 		var sound = audio_play_sound(snTalk,1,false);
 		audio_sound_pitch(sound,1.5);

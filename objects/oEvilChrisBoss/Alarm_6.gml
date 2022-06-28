@@ -1,0 +1,2 @@
+/// @desc Defeat Alarm
+defeatphase++;

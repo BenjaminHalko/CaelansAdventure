@@ -61,6 +61,18 @@ else if(selected)
 				room_persistent = true;
 				break;
 			}
+			case 4:
+			{
+				Save("Settings","User",!global.annaramode);
+				SlideTransistion(TRANS_MODE.RESTART);
+				break;
+			}
+			case 5:
+			{
+				SlideTransistion(TRANS_MODE.GOTO,rCreditsOptions);
+				room_persistent = true;
+				break;
+			}
 		}
 	}
 }

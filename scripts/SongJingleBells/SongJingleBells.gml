@@ -33,7 +33,8 @@ SetupNote(e4,4);
 SetupNote(d4,2);
 SetupNote(g4,2);
 
-
+if(!global.annaramode)
+{
 SetupNote(e4,4);
 SetupNote(e4,4);
 SetupNote(e4,2);
@@ -61,3 +62,4 @@ SetupNote(g4,4);
 SetupNote(f4,4);
 SetupNote(d4,4);
 SetupNote(c4,1);
+}

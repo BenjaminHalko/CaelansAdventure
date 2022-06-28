@@ -1,7 +1,7 @@
 /// @desc
 text[4] = "Retro\nVoice"
 text[3] = "Voice\nVolume";
-text[2] = "SFX\nVolume";
+text[2] = "Sound FX\nVolume";
 text[1] = "Music\nVolume";
 text[0] = "Back";
 pos = 0;

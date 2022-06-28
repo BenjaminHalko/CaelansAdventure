@@ -1,0 +1,1 @@
+walldestoryforest = true;

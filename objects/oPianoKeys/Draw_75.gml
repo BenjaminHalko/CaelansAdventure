@@ -7,4 +7,5 @@ var h = display_get_gui_height();
 
 var y2 = y1 + h;
 
-draw_sprite_ext(sprite_index,image_index,(x1+(w/2))-(((amount-1)/2)*64)+((number-1)*64),y2-(h/4),2,2,image_angle,image_blend,image_alpha);
+draw_sprite_ext(sprite_index,0,(x1+(w/2))-(6*64)+(number*64),y2-(h/3)+(row*(sprite_height+8)*2),2,2,image_angle,image_blend,image_alpha);
+draw_sprite_ext(sprite_index,1,(x1+(w/2))-(6*64)+(number*64),y2-(h/3)+(row*(sprite_height+8)*2),2,2,image_angle,c_white,image_alpha);

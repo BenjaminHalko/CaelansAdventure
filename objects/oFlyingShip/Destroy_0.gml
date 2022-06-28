@@ -1,0 +1,1 @@
+/// @desc Don't Do Normal Destroy Event

@@ -11,6 +11,8 @@ with (oTransition)
 	mode = argument[0];
 	xx = argument[1];
 	yy = argument[2];
+	iconx = xx;
+	icony = yy;
 	if (argument_count > 3) target = argument[3];
 	else
 	{

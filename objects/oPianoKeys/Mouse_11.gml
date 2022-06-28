@@ -1,6 +1,9 @@
 /// @desc
-if(!correct) and (!oPiano.playing) and (oPiano.keyclicked == id)
+if(instance_exists(oPiano))
 {
-	oPiano.clicked = false;
-	audio_stop_sound(notemusic);
+	if(!correct) and (!oPiano.playing) and (oPiano.keyclicked == id)
+	{
+		oPiano.clicked = false;
+		audio_stop_sound(notemusic);
+	}
 }

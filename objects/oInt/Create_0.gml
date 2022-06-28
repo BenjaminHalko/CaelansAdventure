@@ -1,4 +1,11 @@
 /// @desc
+global.forWebsite = false;
+firststart = false;
+char = 0;
+text = "Press Any Key";
+textToDraw = "";
+global.annaramode = Load("Settings","User",false);
+display_set_gui_size(1920,1080);
 InitalizeTestVariables();
 LoadVoiceVariables();
 instance_create_layer(0,0,layer,oGlobalController);
@@ -6,6 +13,13 @@ instance_create_layer(0,0,layer,oTransition);
 instance_create_layer(0,0,layer,oMouse);
 randomize();
 
+global.credits = false;
+global.completed = Load("Info","Completed",false);
+global.iconnumber = Load("Info","Icon Number",0);
+global.infintejump = Load("Settings","InfiniteJump",true);
+global.numberofextras = sprite_get_number(sExtras);
+global.airshipdoor = noone;
+global.unlockedinfintejump = Load("Settings","UnlockedInfinteJump",false);
 global.retrofilter = Load("Settings","Retro Filter",false);
 global.retrovoice = Load("Settings","Retro Voice",false);
 
@@ -17,15 +31,32 @@ for(var i = 0; i < gamepad_get_device_count(); i++)
 	{
 		global.gp = i;
 		global.gamepadconnected = true;
+		gamepad_set_axis_deadzone(global.gp,0.05);
+		break;
+	}
+}
+global.unlockedallextras = true;
+
+for(var i = 1; i <= global.numberofextras; i++)
+{
+	if(!Load("Extras","Watched - "+string(i),false))
+	{
+		global.unlockedallextras = false;
 		break;
 	}
 }
 
-if(audio_group_is_loaded(agSoundEffects)) and (audio_group_is_loaded(agMusic))
+if(audio_group_is_loaded(agSoundEffects)) and (audio_group_is_loaded(agMusic)) and (audio_group_is_loaded(agVoiceClips))
 {
-	audio_group_set_gain(agMusic,0.5*Load("Settings","Music Volume",0.5),1);
-	audio_group_set_gain(agSoundEffects,Load("Settings","Sound Effects Volume",0.5),1);
-	audio_group_set_gain(agVoiceClips,Load("Settings","Voice Clips Volume",0.75),1);
+	audio_group_set_gain(agMusic,0.5*Load("Settings","Music Volume",0.5),10);
+	audio_group_set_gain(agSoundEffects,Load("Settings","Sound Effects Volume",0.5),10);
+	audio_group_set_gain(agVoiceClips,Load("Settings","Voice Clips Volume",0.5),10);
+	if(Load("Info","Room",noone) == noone)
+	{
+		firststart = true;
+		oTransition.percent = 0;
+	}
+	else
 	room_goto_next();
 }
 else

@@ -16,6 +16,8 @@ var _a = argument5;
 var _w = argument6;
 var _c = c_red;
 
+if(global.annaramode) _c = make_color_rgb(255,0,255);
+
 if(!_w)
 {
 	draw_sprite_ext(sIcon,_n,_x,_y,_s,_s,_r,_c,_a);
@@ -28,6 +30,7 @@ else
 		if(i > _n)
 		{ 
 			_cc = c_blue;
+			if(global.annaramode) _cc = make_color_rgb(0,84,255);
 			_aa = _a*0.5;
 		}
 		else
